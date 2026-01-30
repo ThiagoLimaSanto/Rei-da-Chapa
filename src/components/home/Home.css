@@ -68,6 +68,11 @@
 
 
 @media (max-width: 480px) {
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
     .hero img{
         display: none;
     }
