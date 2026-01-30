@@ -65,3 +65,14 @@
     border: 2px solid var(--primary);
     color: var(--primary);
 }
+
+
+@media (max-width: 480px) {
+    .hero img{
+        display: none;
+    }
+
+    .hero strong{
+        font-size: 24px;
+    }
+ }

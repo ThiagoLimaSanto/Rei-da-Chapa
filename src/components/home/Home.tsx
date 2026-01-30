@@ -1,5 +1,6 @@
 import { HashLink } from 'react-router-hash-link'
 import { FaWhatsapp } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import './Home.css'
 
 const Home = () => {
@@ -27,7 +28,7 @@ const Home = () => {
                             <strong>+500</strong> Clientes felizes
                         </li>
                         <li>
-                            <strong>4.9</strong> Avaliação
+                            <strong><FaStar size={19} />4.9</strong> Avaliação
                         </li>
                         <li>
                             <strong>40min</strong> Ou seu dinheiro de volta
