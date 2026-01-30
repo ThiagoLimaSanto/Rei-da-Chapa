@@ -50,3 +50,23 @@ header {
     filter: brightness(.9);
     transform: translateY(-2px);
 }
+
+
+@media (max-width: 480px) {
+    .navbar{
+        display: none;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .btn-pedir{
+        font-size: 15px;
+        padding: 12px 6px;
+    }
+}
